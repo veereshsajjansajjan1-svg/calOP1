@@ -10,4 +10,8 @@ else:
     num2=153
 
 print("calculator")
-print(f"addition:{num1+num2}\nsubtraction:{num1-num2}\nmultiplication:{num1*num2}\ndivision:{num1/num2}")
+sum=num1+num2
+sub=num1-num2
+mul=num1*num2
+div=num1/num2
+print(f"addition:{sum}\nsubtraction:{sub}\nmultiplication:{mul}\ndivision:{div}")
